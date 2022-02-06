@@ -1,6 +1,7 @@
 package d01_02_2022;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +20,8 @@ public class Zadatak1 {
 
 		System.setProperty("webdriver.chrome.driver", "driver-lib/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.udemy.com/courses/search/?src=ukw&q=slksd");
 		driver.findElement(By.xpath("//*[contains(@class,'language-selector-button--button--1wgoL')]")).click();

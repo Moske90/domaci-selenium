@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34306" started-at="2022-02-06T17:09:05 CET" finished-at="2022-02-06T17:09:39 CET">
+  <suite name="Default suite" duration-ms="14724" started-at="2022-02-10T16:51:50 CET" finished-at="2022-02-10T16:52:05 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34306" started-at="2022-02-06T17:09:05 CET" finished-at="2022-02-06T17:09:39 CET">
-      <class name="d04_02_2022.Zadatak1">
-        <test-method status="PASS" signature="before()[pri:0, instance:d04_02_2022.Zadatak1@371a67ec]" name="before" is-config="true" duration-ms="11716" started-at="2022-02-06T17:09:05 CET" finished-at="2022-02-06T17:09:17 CET">
+    <test name="Default test" duration-ms="14724" started-at="2022-02-10T16:51:50 CET" finished-at="2022-02-10T16:52:05 CET">
+      <class name="d07_02_2022_tests.KatalonTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d07_02_2022_tests.KatalonTest@4671e53b]" name="beforeMethod" is-config="true" duration-ms="6204" started-at="2022-02-10T16:51:50 CET" finished-at="2022-02-10T16:51:56 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="inputsTest()[pri:0, instance:d04_02_2022.Zadatak1@371a67ec]" name="inputsTest" duration-ms="22530" started-at="2022-02-06T17:09:17 CET" finished-at="2022-02-06T17:09:39 CET">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="KatalonTest()[pri:0, instance:d07_02_2022_tests.KatalonTest@4671e53b]" name="KatalonTest" duration-ms="8458" started-at="2022-02-10T16:51:56 CET" finished-at="2022-02-10T16:52:05 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inputsTest -->
-      </class> <!-- d04_02_2022.Zadatak1 -->
+        </test-method> <!-- KatalonTest -->
+      </class> <!-- d07_02_2022_tests.KatalonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
